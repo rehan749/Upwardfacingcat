@@ -487,6 +487,7 @@
         }
         .classlist-middle .filter-box{
             margin: auto;
+            max-width: 90%;
         }
         .toggle-button {
             display: flex;
@@ -519,7 +520,7 @@
             flex-direction: column;
         }
         .card{
-            max-width: 90%;
+            /* max-width: 90%; */
             margin: auto;
             margin-bottom: 10px;
         }
@@ -542,7 +543,11 @@
       display: flex;
       flex-direction: column;
         }
-    
+        .booking-option .search-bar {
+           
+            margin: 90px auto 0px;
+            max-width: 93%;
+        }
    
 }
     @media (max-width:384px){
